@@ -7,7 +7,7 @@ import ColorToggle from './icons/ColorToggle';
 import IconButton from './icons/IconButton';
 import Menu from './icons/Menu';
 import LogoWrapper from './LogoWrapper';
-import SocialIcons from './SocialIcons';
+// import SocialIcons from './SocialIcons';
 
 const Header = ({ navOpen, setNavOpen }) => {
   const { cycleColorMode } = useCycleColor();
@@ -27,7 +27,7 @@ const Header = ({ navOpen, setNavOpen }) => {
         <LogoWrapper />
       </HeaderSection>
       <HeaderSection>
-        <SocialIcons />
+        {/* <SocialIcons /> */}
         <IconButton
           label="Change Theme Color"
           icon={<ColorToggle />}

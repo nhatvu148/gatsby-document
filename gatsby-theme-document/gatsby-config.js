@@ -6,7 +6,7 @@ module.exports = {
     description: `This is my description that will be used in the meta tags and important for search results`,
     social: [
       {
-        name: `github`,
+        name: `technostar`,
         url: `https://www.e-technostar.com`
       },
       {
